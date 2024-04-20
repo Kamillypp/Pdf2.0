@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Produtos</title>
+   <style>
+     body {
+       margin: 0;
+       padding: 0;
+       background-color: #f4f4f4;
+       font-family: Arial, sans-serif;
+     }
+     .container {
+       width: 80%;
+       max-width: 800px;
+       margin: 50px auto;
+       padding: 20px;
+     }
+     h1 {
+       text-align: center;
+     }
+     .produto {
+       border-bottom: 1px solid #ccc;
+       padding: 20px 0;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+     }
+     .produto:last-child {
+       border-bottom: none;
+     }
+     .produto img {
+       width: 200px;
+       height: auto;
+       margin-bottom: 10px;
+     }
+     .produto .nome {
+       font-weight: bold;
+       font-size: 18px;
+       text-align: center;
+       margin-bottom: 5px;
+     }
+     .produto .valor {
+       color: #007bff;
+       font-size: 16px;
+       margin-bottom: 10px;
+     }
+     .botao-comprar {
+       background-color: #008000;
+       color: #fff;
+       border: none;
+       padding: 10px 20px;
+       cursor: pointer;
+       border-radius: 5px;
+       text-decoration: none;
+       font-size: 16px;
+       transition: background-color 0.3s ease;
+       text-align: center; /* Adicionado para centralizar o botão */
+       display: block; /* Transforma o link em um bloco para centralizar */
+       margin: 20px auto; /* Centraliza horizontalmente */
+     }
+     .botao-comprar:hover {
+       background-color: #005600;
+     }
+     /* Estilo para remover a borda do textarea e expandi-lo */
+     textarea {
+       border: none;
+       outline: none;
+       width: 100%; /* Expandindo para ocupar toda a largura do container */
+       height: 300px; /* Definindo uma altura maior para exibir todos os nomes */
+       resize: none; /* Impedindo o redimensionamento pelo usuário */
+       overflow: auto; /* Adicionando uma barra de rolagem quando o conteúdo for grande */
+     }
+   </style>
+ </head>
+ <body>
+ <div class="container">
+   <h1>Nossos PDFs</h1>
+   <div class="produto">
+     <img src="Essimque.jpg" alt="Ícone do Produto 1">
+     <span class="nome">É assim que acaba - Livro por Colleen Hoover</span>
+     <span class="valor">R$ 5,00</span>
+     <a href="https://wa.me/5562993858584" class="botao-comprar">Compre Aqui</a>
+   </div>
+</div>
+<div class="produto">
+  <img src="51NmVKrbhAL.jpg" alt="Ícone do Produto 2">
+  <span class="nome">O Diário de um Banana 1
+     Livro por Jeff Kinne</span>
+  <span class="valor">R$ 3,00</span>
+</div>
+<div class="produto">
+  <img src="talvez.jpg" alt="Ícone do Produto 3">
+  <span class="nome">talvez a sua jornada agora seja só sobre você: crônicas</span>
+  <span class="valor">R$ 5,00</span>
+  <a href="https://wa.me/5562993858584" class="botao-comprar">Compre Aqui</a>
+</div>
+<div class="produto">
+ <img src="download.jpg" alt="Ícone do Produto 3">
+ <span class="nome">É assim que começa (Vol. 2 É assim que acaba)</span>
+ <span class="valor">R$ 5,00</span>
+ <a href="https://wa.me/5562993858584" class="botao-comprar">Compre Aqui</a>
+</div>
+<div class="produto">
+ <img src="sab.jpg" alt="Ícone do Produto 3">
+ <span class="nome">A depressão é uma borboleta azul</span>
+ <span class="valor">R$ 2,00</span>
+ <a href="https://wa.me/5562993858584" class="botao-comprar">Compre Aqui</a>
+</div>
+<div class="produto">
+ <img src="pem.jpg" alt="Ícone do Produto 3">
+ <span class="nome">Poemas e Poesia de Emily Dickinson</span>
+ <span class="valor">R$ 7,00</span>
+ <a href="https://wa.me/5562993858584" class="botao-comprar">Compre Aqui</a>
+</div>
+<div class="produto">
+ <img src="ver.jpg" alt="Ícone do Produto 3">
+ <span class="nome">Verity
+     Romance por Colleen Hoover
+     </span>
+ <span class="valor">R$ 10,00</span>
+ <a href="https://wa.me/5562993858584" class="botao-comprar">Compre Aqui</a>
+</div>
+<div class="produto">
+ <img src="acl.jpg" alt="Ícone do Produto 3">
+ <span class="nome">A culpa é das estrelas</span>
+ <span class="valor">R$ 14,00</span>
+ <a href="https://wa.me/5562993858584" class="botao-comprar">Compre Aqui</a>
+</div>
+<div class="produto">
+ <img src="71cRYUAqccL._UX250_.jpg" alt="Ícone do Produto 3">
+ <span class="nome">O fabricante de lágrimas</span>
+ <span class="valor">R$ 10,00</span>
+ <a href="https://wa.me/5562993858584" class="botao-comprar">Compre Aqui</a>
+</div>
+<textarea id="" style="border: none; outline: none; font-family: 'Times New Roman', serif;" placeholder="Digite suas notas aqui...">
+Código 1234 - Dom Casmurro - R$ 4,00
+Código 1234 - Métrica - R$ 12,00
+Código 2345 - Em Busca de Cinderela - R$ 11,00
+Código 3456 - É Assim Que Acaba - R$ 14,00
+Código 4567 - Talvez Um Dia - R$ 13,00
+Código 5678 - Confesse" - R$ 12,00
+Código 6789 - Nunca Jamais (co-escrito com Tarryn Fisher) - R$ 10,00
+Código 7890 - Uma História de Amor e TOC" - R$ 15,00
+Código 8901 - Tarde Demais - R$ 13,00
+Código 9012 - O Lado Feio do Amor - R$ 11,00
+Código 1011 - Novembro 9" - R$ 14,00
+Código 1122 - Extraordinário por R. J. Palacio - R$ 12,00
+Código 2233 - O Diário de um Banana por Jeff Kinney - R$ 10,00
+Código 3344 - A Culpa é das Estrelas por John Green - R$ 14,00
+Código 4455 - A Seleção" por Kiera Cass - R$ 13,00
+Código 5566 - Quem é Você, Alasca? por John Green - R$ 11,00
+Código 6677 - O Pequeno Príncipe por Antoine de Saint-Exupéry - R$ 9,00
+Código 7788 - A Menina que Roubava Livros por Markus Zusak - R$ 15,00
+Código 8899 - Cidades de Papel por John Green - R$ 12,00
+Código 9900 - A Garota no Trem por Paula Hawkins - R$ 14,00
+Código 1010 - Divergente" por Veronica Roth - R$ 11,00    
+Código 5678 - O Pequeno Príncipe - R$ 6,00
+Código 9012 - Crime e Castigo - R$ 8,00
+Código 7901 - After - R$ 4,00
+Código 2356 - After: Depois da Verdade - R$ 6,00
+Código 6800 - After: Depois do Desencontro - R$ 8,00
+Código 1246 - After: Depois da Esperança - R$ 4,00
+Código 5690 - After: Depois do Desastre - R$ 6,00
+Código 9024 - Belo Desastre - R$ 8,00
+Código 3468 - Desastre Iminente - R$ 4,00
+Código 7902 - Um Caso Perdido - R$ 6,00
+Código 2357 - Sem Esperança - R$ 8,00
+Código 6801 - Talvez Um Dia - R$ 4,00
+Código 1247 - Métrica - R$ 6,00
+Código 5691 - Pausa - R$ 8,00
+Código 9025 - O Fim de Nossos Dias - R$ 4,00
+Código 3469 - Confesse - R$ 6,00
+Código 7903 - Essa Garota - R$ 8,00
+Código 2358 - Um de Nós Está Mentindo - R$ 4,00
+Código 6802 - Dois de Nós Estão Mortos - R$ 6,00
+Código 1248 - Um de Nós é o Próximo - R$ 8,00
+Código 5692 - A Boa Menina - R$ 4,00
+Código 9026 - A Boa Menina 2 - R$ 6,00
+Código 3470 - A Boa Menina 3 - R$ 8,00
+Código 1249 - O Pequeno Príncipe e a Rosa - R$ 4,00
+Código 5693 - O Grande Gatsby Revisitado - R$ 6,00
+Código 9027 - Orgulho e Preconceito Revisitado - R$ 8,00
+Código 3471 - A Arte de Guerra nos Negócios - R$ 4,00
+Código 1414 - A Busca pelo Talismã da Lua - R$ 10,00
+Código 2525 - O Segredo do Vale dos Anjos - R$ 12,00
+Código 3636 - O Enigma do Lago Negro - R$ 9,00
+Código 4747 - A Profecia dos Guardiões do Tempo - R$ 14,00
+Código 5858 - O Tesouro dos Reis Antigos - R$ 11,00
+Código 6969 - A Maldição do Cálice Sagrado - R$ 13,00
+Código 7071 - A Jornada do Guardião do Vento - R$ 8,00
+Código 8181 - O Mistério da Floresta Encantada - R$ 12,00
+Código 9292 - A Cidade dos Sonhos Perdidos - R$ 7,00
+Código 1313 - O Segredo das Runas Perdidas - R$ 11,00
+Código 2424 - A Profecia do Guardião da Luz - R$ 14,00
+Código 3535 - O Mistério do Relógio de Areia - R$ 9,00
+Código 4646 - A Busca pela Fonte do Conhecimento - R$ 13,00
+Código 5757 - O Enigma da Estrela Cadente - R$ 10,00
+Código 6868 - A Profecia do Guardião da Terra - R$ 12,00
+Código 7979 - A Cidade dos Ventos Sussurrantes - R$ 8,00
+Código 8081 - A Busca pelo Livro dos Antigos - R$ 11,00
+Código 9191 - O Segredo do Cálice de Cristal - R$ 14,00
+Código 1314 - O Enigma da Pedra do Destino - R$ 7,00
+Código 2425 - A Profecia dos Guardiões das Sombras - R$ 10,00
+Código 3536 - O Mistério do Labirinto de Espelhos - R$ 12,00
+Código 4647 - A Jornada do Guardião da Escuridão - R$ 9,00
+Código 5758 - A Busca pela Pérola do Oceano - R$ 13,00
+Código 6869 - O Segredo da Montanha do Silêncio - R$ 10,00
+Código 7980 - O Enigma da Caverna do Dragão - R$ 12,00
+Código 8082 - A Profecia do Guardião do Fogo - R$ 8,00
+Código 9192 - A Jornada da Guardiã do Gelo - R$ 11,00
+Código 1415 - A Busca pelo Escudo da Justiça - R$ 14,00
+Código 2526 - O Segredo do Templo da Lua - R$ 7,00
+Código 3637 - A Profecia do Guardião do Trovão - R$ 10,00
+Código 4748 - O Enigma do Mapa Estelar - R$ 12,00
+Código 5859 - A Jornada do Guardião da Luz - R$ 9,00
+Código 6970 - O Segredo do Amuleto Sagrado - R$ 13,00
+Código 7072 - A Busca pelo Cetro dos Reis - R$ 10,00
+Código 8182 - A Profecia do Guardião do Vento - R$ 12,00
+Código 9293 - O Mistério da Terra do Sol Nascente - R$ 8,00
+Código 1316 - A Jornada do Guardião da Esperança - R$ 11,00
+Código 2427 - O Segredo do Vale da Lua - R$ 14,00
+Código 3538 - A Busca pelo Orbe dos Antigos - R$ 7,00
+Código 4649 - A Profecia do Guardião do Gelo - R$ 10,00
+Código 5760 - O Enigma do Colar de Diamantes - R$ 12,00
+Código 6871 - A Jornada do Guardião do Trovão - R$ 9,00
+Código 7982 - O Segredo do Palácio do Sol - R$ 13,00
+Código 8083 - A Busca pela Coroa dos Reis - R$ 10,00
+Código 9194 - A Profecia do Guardião da Tempestade - R$ 12,00
+Código 1417 - O Mistério do Anel Mágico - R$ 8,00
+Código 2528 - A Busca pelo Cálice Sagrado - R$ 11,00
+Código 3639 - O Segredo do Vale da Serpente - R$ 14,00
+Código 4750 - A Profecia do Guardião da Terra - R$ 7,00
+Código 5861 - A Jornada do Guardião do Fogo - R$ 10,00
+Código 6972 - O Enigma do Medalhão Perdido - R$ 12,00
+Código 7074 - A Busca pelo Selo dos Antigos - R$ 9,00
+Código 8184 - O Segredo da Ilha do Tesouro - R$ 13,00
+Código 9295 - A Profecia do Guardião da Esperança - R$ 10,00
+Código 1318 - A Jornada do Guardião do Vento - R$ 12,00
+Código 2430 - O Enigma da Cidade Esquecida - R$ 8,00
+Código 3540 - A Busca pelo Livro das Eras - R$ 11,00
+Código 4651 - A Profecia do Guardião do Trovão - R$ 14,00
+Código 5763 - O Mistério da Ilha dos Esquecidos - R$ 7,00
+Código 6874 - A Jornada do Guardião da Luz - R$ 10,00
+Código 7986 - O Segredo do Templo dos Deuses - R$ 12,00
+Código 8087 - A Busca pela Joia do Deserto - R$ 9,00
+Código 9198 - A Profecia do Guardião da Noite - R$ 13,00
+Código 1420 - O Enigma da Caverna dos Cristais - R$ 10,00
+Código 2531 - A Jornada do Guardião da Escuridão - R$ 12,00
+Código 3642 - O Segredo do Vale das Sombras - R$ 8,00
+Código 4753 - A Profecia do Guardião do Fogo - R$ 11,00
+Código 5866 - A Busca pelo Cofre dos Reis - R$ 14,00
+Código 6981 - O Mistério da Ilha dos Deuses - R$ 7,00
+Código 7085 - A Jornada do Guardião da Água - R$ 10,00
+Código 8191 - O Enigma da Cidade dos Sussurros - R$ 12,00
+Código 9299 - A Busca pelo Cristal do Poder - R$ 9,00
+Código 1320 - A Profecia do Guardião da Terra - R$ 13,00
+Código 2436 - O Segredo do Vale dos Segredos - R$ 10,00
+Código 3555 - A Jornada do Guardião da Tempestade - R$ 12,00
+   </textarea>
+   <a href="https://wa.me/5562993858584" class="botao-comprar">Solicitar mais livros em PDFs</a>
+</div>
+</body>
+</html>
